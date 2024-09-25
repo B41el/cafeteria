@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="js/javascripts.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url('img/cafe2.png');
+            height: 100%;
+            width: 100hv;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- header Home buttom-->
+        <div class="home">
+            <a href="index.html">
+                <i class="fa fa-home"></i>
+            </a>
+        </div>
+        <!-- header logo-->
+        <div class="header">
+            <img src="img/coffee-break.png" alt="coffee Break Cafeteria" height="64hv">
+        </div>
+    </header>
+    <div class="main">
+        <div class="pad">
+            <h1><u>Coffe Break Cafeteria</u></h1>
+        </div>
+
+        <div class="table">
+            <table class="pdt-nov">
+                <tr class="pdt-nov">
+                    <td class="pdt-nov">
+                    <td></td>
+                    <figure><a href="produtos.html" class="image"><img src="img/produtos.jpeg" alt="produtos" class="pdt-nove"></a>
+                    </figure>
+                    </td>
+                </tr>
+                <tr class="pdt-nov">
+                    <td class="pdt-nov">
+                    <td></td>
+                    <figure><a href="novidades.html" class="image"><img src="img/novidades.jpeg" alt="novidades" class="pdt-nove"></a>
+                    </figure>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <a id="link-topo" href="">&#9650;</a>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-column-first">
+                    <h3>Quem Somos:</h3>
+                    <ul>
+                        <li>
+                            <!-- Quem somos curiosidades-->
+                            <p class="who-we-are">
+                                A <b>Coffee Break</b> é mais do que uma cafeteria, é um santuário para os entusiastas do
+                                café e
+                                para aqueles que buscam momentos especiais. Sua essência transcende as palavras,
+                                incorporando aromas envolventes, sabores marcantes e um ambiente acolhedor que
+                                transforma cada visita em uma experiência única. <br><br>
+
+                                A nossa paixão vai além de simplesmente servir uma bebida, é um compromisso com a
+                                desaceleração do tempo e o fortalecimento das conexões. Cada xícara é tratada como uma
+                                obra de arte, resultado da seleção cuidadosa dos melhores grãos. <br><br>
+
+                                Nossa equipe, composta por baristas apaixonados, está pronta para converter cada pedido
+                                em uma experiência sensorial, acreditando que o atendimento personalizado é a essência
+                                de uma boa xícara de café. <br><br>
+
+                                Além disso, somos comprometidos com práticas sustentáveis. Desde a escolha dos
+                                fornecedores até a gestão dos resíduos, buscamos minimizar nosso impacto no planeta.
+                                Acreditamos que o amor pelo café também se reflete no cuidado com o meio ambiente.
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- links para o site-->
+                <div class="footer-column-second">
+                    <h3>Conteúdo:</h3>
+                    <ul>
+                        <li><a href="index.html" class="conteudo">Home</a></li>
+                        <li><a href="produtos.html" class="conteudo">Produtos</a></li>
+                        <li><a href="novidades.html" class="conteudo">Novidades</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column-third">
+                    <h3>Contatos:</h3>
+                    <div class="register-zone">
+                        <ul>
+                            <li class="li-one">
+                                <!-- formulário de cadastro-->
+                                <form method="get" action="obrigado.html">
+                                    <label for="email"></label>
+                                    <p class="ctt">Deseja receber novidades?</p>
+                                    <input type="email" class="email" placeholder="Digite Seu E-mail" required>
+                                    <input type="text" class="name" placeholder="Nome Completo" required>
+                                    <div class="data">
+                                        <select name="gender" class="gender">
+                                            <option value="female" selected>Mulher</option>
+                                            <option value="male">Homem</option>
+                                            <option value="other">Outro</option>
+                                            <input type="date" class="age" required>
+                                    </div>
+                                    <br>
+                                    <button type="submit">Cadastrar</button>
+                                </form>
+                            </li>
+                            <!-- links para fora do site-->
+                            <div class="contato">
+                                <!--modal-->
+                                <div id="fade" class="hide"></div>
+                                <div id="modal" class="hide">
+                                    <div class="modal-header">
+                                        <h2>Ops...</h2>
+                                        <button class="close-modal" id="close">Fechar</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Nos desculpe mas ainda não criamos essa rede social, assim que criada o site
+                                            será atualizado.</p>
+                                        <p><b>Nos desculpe novamente pelo transtorno!</b></p>
+                                    </div>
+                                </div>
+                                <!--abrir modal-->
+                                <li><a id="open-modal"><i class="fa fa-facebook"></i></a></li>
+                                <!--fim do modal/ abrir links-->
+                                <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.ifood.com.br" target="_blank"><iconify-icon
+                                            style="margin-left: 16px;" icon="simple-icons:ifood"
+                                            style="color: #CEB56D;"></iconify-icon><iconify-icon style="opacity: 0%;"
+                                            icon="simple-icons:ifood" style="color: #353F40;"></iconify-icon></a></li>
+                            </div>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
